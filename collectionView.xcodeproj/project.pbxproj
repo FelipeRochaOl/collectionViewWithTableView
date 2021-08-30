@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0B5AF826DCA9100083069D /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0B5AF626DCA9100083069D /* CardTableViewCell.swift */; };
+		6B0B5AF926DCA9100083069D /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0B5AF726DCA9100083069D /* CardTableViewCell.xib */; };
 		6BC3B43526DC92CA00B868FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3B43426DC92CA00B868FC /* AppDelegate.swift */; };
 		6BC3B43726DC92CA00B868FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3B43626DC92CA00B868FC /* SceneDelegate.swift */; };
 		6BC3B43926DC92CA00B868FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3B43826DC92CA00B868FC /* ViewController.swift */; };
 		6BC3B43C26DC92CA00B868FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC3B43A26DC92CA00B868FC /* Main.storyboard */; };
 		6BC3B43E26DC92CE00B868FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC3B43D26DC92CE00B868FC /* Assets.xcassets */; };
 		6BC3B44126DC92CE00B868FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC3B43F26DC92CE00B868FC /* LaunchScreen.storyboard */; };
+		6BC3B44A26DC940300B868FC /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3B44826DC940300B868FC /* CustomCollectionViewCell.swift */; };
+		6BC3B44B26DC940300B868FC /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC3B44926DC940300B868FC /* CustomCollectionViewCell.xib */; };
+		6BC3B44E26DCA21400B868FC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3B44C26DCA21400B868FC /* CustomTableViewCell.swift */; };
+		6BC3B44F26DCA21400B868FC /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC3B44D26DCA21400B868FC /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B0B5AF626DCA9100083069D /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		6B0B5AF726DCA9100083069D /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
 		6BC3B43126DC92CA00B868FC /* collectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC3B43426DC92CA00B868FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BC3B43626DC92CA00B868FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		6BC3B43D26DC92CE00B868FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC3B44026DC92CE00B868FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BC3B44226DC92CE00B868FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC3B44826DC940300B868FC /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		6BC3B44926DC940300B868FC /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		6BC3B44C26DCA21400B868FC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		6BC3B44D26DCA21400B868FC /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +72,15 @@
 				6BC3B43626DC92CA00B868FC /* SceneDelegate.swift */,
 				6BC3B43826DC92CA00B868FC /* ViewController.swift */,
 				6BC3B43A26DC92CA00B868FC /* Main.storyboard */,
+				6BC3B44826DC940300B868FC /* CustomCollectionViewCell.swift */,
+				6BC3B44926DC940300B868FC /* CustomCollectionViewCell.xib */,
 				6BC3B43D26DC92CE00B868FC /* Assets.xcassets */,
 				6BC3B43F26DC92CE00B868FC /* LaunchScreen.storyboard */,
 				6BC3B44226DC92CE00B868FC /* Info.plist */,
+				6BC3B44C26DCA21400B868FC /* CustomTableViewCell.swift */,
+				6B0B5AF626DCA9100083069D /* CardTableViewCell.swift */,
+				6B0B5AF726DCA9100083069D /* CardTableViewCell.xib */,
+				6BC3B44D26DCA21400B868FC /* CustomTableViewCell.xib */,
 			);
 			path = collectionView;
 			sourceTree = "<group>";
@@ -127,6 +145,9 @@
 				6BC3B44126DC92CE00B868FC /* LaunchScreen.storyboard in Resources */,
 				6BC3B43E26DC92CE00B868FC /* Assets.xcassets in Resources */,
 				6BC3B43C26DC92CA00B868FC /* Main.storyboard in Resources */,
+				6BC3B44F26DCA21400B868FC /* CustomTableViewCell.xib in Resources */,
+				6BC3B44B26DC940300B868FC /* CustomCollectionViewCell.xib in Resources */,
+				6B0B5AF926DCA9100083069D /* CardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BC3B43926DC92CA00B868FC /* ViewController.swift in Sources */,
+				6B0B5AF826DCA9100083069D /* CardTableViewCell.swift in Sources */,
+				6BC3B44E26DCA21400B868FC /* CustomTableViewCell.swift in Sources */,
 				6BC3B43526DC92CA00B868FC /* AppDelegate.swift in Sources */,
 				6BC3B43726DC92CA00B868FC /* SceneDelegate.swift in Sources */,
+				6BC3B44A26DC940300B868FC /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "felipe-rocha.com.collectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "felipe-rocha.com.collectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
